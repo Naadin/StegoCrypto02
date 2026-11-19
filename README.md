@@ -15,7 +15,7 @@ python analyze.py
 # 2. Параметры
 
 ```
-base = "Криптография"         # встраиваемый текст
+base = "Cryptography"         # встраиваемый текст
 password = "Naadin_password"  # пароль для шифрования
 fill_percent = 1 / 100.0      # уровень заполнения 1%
 fill_percent = 5 / 100.0      # уровень заполнения 5%
@@ -31,7 +31,7 @@ from stego import embed, extract
 embed(
     cover_path="cover_road.png",
     stego_path="stego_plain.png",
-    base="Криптография",
+    base="Cryptography",
     mode="plain"
 )
 
@@ -52,7 +52,7 @@ from stego import embed
 embed(
     cover_path="cover_road.png",
     stego_path="stego_random.png",
-    base="Криптография",
+    base="Cryptography",
     mode="random",
     password="Naadin_password"
 )
